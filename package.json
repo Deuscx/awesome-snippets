@@ -10,10 +10,16 @@
     "preview": "vite preview",
     "test": "vitest",
     "up": "taze major -I",
-    "postinstall": "npx simple-git-hooks"
+    "postinstall": "npx simple-git-hooks",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "build:registry": "jsrepo build"
   },
   "dependencies": {
     "@vueuse/core": "catalog:frontend",
+    "jsrepo": "catalog:default",
+    "vitepress": "catalog:docs",
     "vue": "catalog:frontend",
     "vue-router": "catalog:frontend"
   },

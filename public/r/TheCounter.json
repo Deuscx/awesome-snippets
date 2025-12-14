@@ -1,0 +1,20 @@
+{
+  "name": "TheCounter",
+  "type": "ui",
+  "add": "when-added",
+  "files": [
+    {
+      "type": "ui",
+      "role": "file",
+      "content": "<script setup lang=\"ts\">\r\nconst props = defineProps<{\r\n  initial: number\r\n}>()\r\n\r\nconst { count, inc, dec } = useCounter(props.initial)\r\n</script>\r\n\r\n<template>\r\n  <div>\r\n    {{ count }}\r\n    <button class=\"inc\" @click=\"inc()\">\r\n      +\r\n    </button>\r\n    <button class=\"dec\" @click=\"dec()\">\r\n      -\r\n    </button>\r\n  </div>\r\n</template>\r\n",
+      "path": "TheCounter.vue",
+      "_imports_": [],
+      "registryDependencies": [],
+      "dependencies": [],
+      "devDependencies": []
+    }
+  ],
+  "registryDependencies": [],
+  "dependencies": [],
+  "devDependencies": []
+}

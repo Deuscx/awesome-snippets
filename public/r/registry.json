@@ -1,0 +1,25 @@
+{
+  "name": "@example/vue",
+  "version": "package",
+  "type": "distributed",
+  "items": [
+    {
+      "name": "TheCounter",
+      "type": "ui",
+      "add": "when-added",
+      "registryDependencies": [],
+      "dependencies": [],
+      "devDependencies": [],
+      "files": [
+        {
+          "type": "ui",
+          "role": "file",
+          "path": "TheCounter.vue",
+          "registryDependencies": [],
+          "dependencies": [],
+          "devDependencies": []
+        }
+      ]
+    }
+  ]
+}

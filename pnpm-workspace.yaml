@@ -1,4 +1,6 @@
 packages: []
+catalog:
+  jsrepo: ^0.0.0
 catalogs:
   build:
     '@iconify-json/carbon': ^1.2.9
@@ -25,6 +27,8 @@ catalogs:
     typescript: ^5.8.3
     vitest: ^3.2.3
     vue-tsc: ^2.2.10
+  docs:
+    vitepress: ^0.0.0
   frontend:
     '@vueuse/core': ^13.3.0
     vue: ^3.5.16
