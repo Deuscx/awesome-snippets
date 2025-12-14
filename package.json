@@ -18,7 +18,6 @@
   },
   "dependencies": {
     "@vueuse/core": "catalog:frontend",
-    "jsrepo": "catalog:default",
     "vitepress": "catalog:docs",
     "vue": "catalog:frontend",
     "vue-router": "catalog:frontend"
@@ -34,7 +33,9 @@
     "eslint": "catalog:dev",
     "eslint-plugin-format": "catalog:dev",
     "jsdom": "catalog:build",
+    "jsrepo": "catalog:dev",
     "lint-staged": "catalog:dev",
+    "sass-embedded": "catalog:dev",
     "simple-git-hooks": "catalog:dev",
     "taze": "catalog:dev",
     "typescript": "catalog:dev",
